@@ -1,0 +1,252 @@
+ /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07.10.2015, 22:24:53
+    Author     : Труш Е.Н.
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-page {
+    width: 80%;
+    min-width: 760px;
+    margin: auto;
+}
+
+#header-part {
+    background-image: url(img/fon.jpg);
+    background-size: 200px;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    margin-bottom: 20px;
+}
+
+#header-part:after {
+    clear: both;
+    content: '';
+    display:block;
+}
+
+#logo {
+    width: 350px;
+    height: 100px;
+    background: rgba(5, 255, 253, 0.4);
+    float:left;
+    position:relative;
+    top:-5px;
+    left:-5px;
+}
+
+#logo img {
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#counters {
+    width: 350px;
+    height: 100px;
+    background: rgba(5, 255, 253, 0.4);
+    float: right;
+    position: relative;
+    top:-5px;
+    right:-5px;
+}
+
+#counters img {
+    text-align: center;
+    padding: 30px 0 0 30px;
+}
+
+#horizontal-menu {
+    padding-top: 10px;
+    margin-right: 5px;
+    text-align: center;
+    margin: auto;
+}
+
+#horizontal-menu ul {
+   	padding: .2em;
+    margin-bottom: 0.37em;
+}
+
+#horizontal-menu ul > li {
+    display: inline;
+}
+
+#horizontal-menu li {
+    display: inline;
+    position: relative;
+    top: 7px;
+}
+
+#horizontal-menu li:hover {
+	/*top: 4px;*/
+}
+
+#horizontal-menu a {
+    text-decoration: none;
+    color: white;
+    background-color: palevioletred;
+    padding: .8em 1.5em;
+}
+
+#horizontal-menu a:hover {
+    color: palevioletred;
+    background: rgba(5, 255, 253, 0.3);;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    position: relative;
+    top: -3px;
+}
+
+body#main a#mainitem,
+body#decoupage a#decoupageitem,
+body#resume a#resumeitem,
+body#felting a#feltingitem,
+body#sport a#sportitem,
+body#javascript a#jsitem {
+	background: #CC4E00;
+	color: #ffe;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    position: relative;
+    top: -3px;
+ }
+body#decoupage a#decoupageitem,
+body#resume a#resumeitem,
+body#felting a#feltingitem,
+body#sport a#sportitem, 
+body#javascript a#jsitem :hover {
+    background: #CC4E00;
+    color: #ffe;
+     
+ }
+
+#main-content {
+    background: rgba(5, 255, 253, 0.3);
+    padding: 15px;
+}
+
+#adv-banners {
+    margin-top: 10px;
+    /*padding: 5px;*/
+    text-align: center;
+    background: rgba(5, 255, 253, 0.3);
+}
+
+#adv-banners img {
+    padding: 5px;
+}
+
+#copyright {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    background: rgba(5, 255, 253, 0.3);
+}
+
+#copyright p {
+    margin: 0;
+}
+
+.exithref {
+    padding-left: 5px;
+}
+
+ table{
+    margin:0px;
+    padding:0px;
+    border:0px;
+    height:100%;
+    background-image: url(img/fon.jpg);
+    background-size: 200px;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    border-collapse: collapse;
+}
+   .collapse{
+    border-collapse: collapse;
+}
+.thumb img  {
+    padding: 25px; /* Расстояние от картинки до рамки */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+.main {
+    width:22%;
+    vertical-align: top;
+}
+.transparent1{
+    width:64%;
+    background: rgba(5, 255, 253, 0.3);}
+.transparent2{
+   text-align: start;
+    background: rgba(255, 0, 0, 0.3);
+    
+}
+.right{
+    text-align: right;
+}
+.fig {
+        text-align:center;
+    }
+.left{
+    width:64%;
+    vertical-align: top;
+    background: rgba(0, 255, 127, 0.3);
+}
+.padding{
+    padding:20px;
+}
+	
+#menu li { 
+display: inline-block; 
+list-style-type: none; 
+} 
+
+#menu a { background-color: palevioletred; color: white; display: block; text-decoration: none; height: 30px; width: 70px; } 
+
+#menu a:hover { background-color: white; color: black; }
+@font-face{
+    font-family: first;
+    src: url(fonts/2_3.ttf);
+}
+@font-face{
+    font-family: second;
+    src: url(fonts/cambria.ttc);
+    
+    .fig {
+        text-align:center;
+    }
+}
+
+@media print {
+    body {
+        margin: 0;
+        background: white;
+    }
+}
+
+.jsblock {
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+.headimage {
+    width: 100px;
+    height: 73px;
+}
+
+#auth_block {
+    padding: 10px;
+}
+
+#auth_block h2 {
+    font-size: 14pt;
+    font-weight: 600;
+}
